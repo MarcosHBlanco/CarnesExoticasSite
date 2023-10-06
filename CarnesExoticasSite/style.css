@@ -1,0 +1,532 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+h4 {
+  color: navajowhite;
+  font-size: 34px;
+}
+
+header {
+  background-color: black;
+  padding-top: 50px;
+  height: 130px;
+  width: 100%;
+  text-align: center;
+}
+
+p {
+  color: #906f09;
+  font-size: 22px;
+}
+
+h1 {
+  font-family: 'PT Serif', serif;
+  color: #Cb7246;
+}
+
+h3 {
+  font-size: 28px;
+  color: darkred;
+}
+
+#containerMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#menu {
+  width: 100%;
+  top: 0px;
+  z-index: 3;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  margin: 1px;
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  background-color: black;
+  color: lightgrey;
+  padding: 0;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#quemSomos {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #871f06;
+  background: rgb(71, 4, 23);
+  background: linear-gradient(135deg, rgba(71, 4, 23, 1) 0%, rgba(18, 17, 17, 1) 0%, rgba(51, 46, 46, 1) 100%);
+  
+}
+
+h2 {
+  font-size: 36px;
+  font-family: 'PT Serif', serif;
+  color: black;
+}
+
+#h2Quemsomos {
+  color: #871f06;
+}
+
+#contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+}
+
+#numeros,
+#funcionamento {
+  padding: 15px;
+}
+
+#localizacao {
+  background-color: orangered;
+  align-items: center;
+}
+
+#endereco {
+  color: #F1e3af;
+}
+
+iframe {
+  width: 100%;
+}
+
+#bannerContato {
+  background-color: black;
+  color: #E8e4e2;
+  font-family: 'Poppins', sans-serif;
+}
+
+.padding{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.escolhido {
+  background: rgb(71, 4, 23);
+  background: linear-gradient(90deg, rgba(71, 4, 23, 1) 0%, rgba(119, 16, 16, 1) 51%, rgba(18, 5, 1, 1) 100%);
+}
+
+.radioButtons {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #c57946;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: px;
+  padding: 3px;
+}
+
+#containerRadios {
+  background-color: #E8e4e2;
+  font-family: 'PT Serif', serif;
+  padding: 2px;
+  font-size: 24px;
+  color: #5a190c;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+span {
+  color: #5a190c;
+  padding-left: 4px;
+  padding-right: 8px;
+}
+
+form {
+  background-color: #E8e4e2;
+  font-family: 'Poppins', sans-serif;
+}
+
+#dadosUsuario {
+  margin-left: 100px;
+}
+
+label {
+  display: block;
+}
+
+.miniContainerCheckbox {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+.checkbox {
+  border: 2px solid #c57946;
+  width: 20px;
+  height: 20px;
+  padding-right: 8px;
+  border-radius: 4px;
+}
+
+#containerCheckbox {
+  font-size: 24px;
+  margin-left: 180px;
+}
+
+hr {
+  color: black;
+}
+
+#container9 {
+  background-color: #E8e4e2;
+  font-family: 'PT Serif', serif;
+  padding: 10px;
+  display: flex;
+}
+
+.botaoDropdown {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 250px;
+  border: 2px solid black;
+}
+
+.itemsDropdown:hover {
+  background-color: background: rgb(71, 4, 23);
+  background: linear-gradient(90deg, rgba(71, 4, 23, 1) 0%, rgba(232, 199, 189, 1) 0%, rgba(233, 224, 224, 1) 100%);
+  ;
+}
+
+.itemsDropdown {
+  width: 100%;
+  height: 20%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  padding: 6.5px;
+  border-radius: 6px;
+  border-collapse: collapse;
+  cursor: pointer;
+}
+
+#selectMenu {
+  margin-left: 400px;
+}
+
+.divDropdown {
+  transition: all 0.1s cubic-bezier(0.16, 1, 0.5, 1);
+  transform: translateY(0.5rem);
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 6px;
+  margin-left: 10px;
+  background-color: background: rgb(71, 4, 23);
+  background: linear-gradient(90deg, rgba(71, 4, 23, 1) 0%, rgba(166, 162, 161, 1) 0%, rgba(233, 224, 224, 1) 100%);
+}
+
+.aparecer {
+  transform: translateY(0rem);
+  visibility: visible;
+  opacity: 1;
+}
+
+.arrow {
+  transform: rotate(180deg);
+  transition: 0.2s ease;
+}
+
+.c-item {
+  height: 600px;
+}
+
+.c-img {
+  height: 100%;
+  filter: brightness(0.8);
+}
+
+.carousel-control-prev-icon {
+  background-color: black;
+  border-radius: 7px;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 7px;
+}
+
+#h3Horario,
+#h3Whatsapp,
+#h3Telefones {
+  color: #E8e4e2;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+#imgCostela {
+  float: right;
+  width: 420px;
+  padding-right: 60px;
+  border-radius: 7px;
+  padding-left: 20px;
+  padding-top: 24px;
+}
+
+#imgFiletMignon {
+  float: left;
+  width: 420px;
+  padding-left: 60px;
+  border-radius: 4px;
+  padding-right: 20px;
+}
+
+#imgPicanha {
+  float: right;
+  width: 420px;
+  padding-left: 20px;
+  border-radius: 4px;
+  padding-right: 60px;
+}
+
+#fileMignon {
+  height: 265px;
+}
+
+#imgTBone {
+  float: left;
+  width: 420px;
+  padding-left: 60px;
+  border-radius: 4px;
+  padding-right: 20px;
+}
+
+#tBone {
+  height: 270px;
+}
+
+#picanha {
+  height: 250px;
+}
+
+#containerCheckbox p {
+  padding-left: 0px;
+}
+
+#containerRadios p {
+  padding-left: 0px;
+  padding-top: 13px;
+}
+
+#pDeVerificacao {
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+textarea {
+  margin-top: 10px;
+}
+
+#containerMor {
+  display: flex;
+  height: 250px;
+  width: 100%;
+  justify-content: center;
+}
+
+#containerFotosExoticos {
+  display: flex;
+  height: 95%;
+  width: 80%;
+  justify-content: center;
+}
+
+.fotosExoticosJavali {
+  background: url(javali.jpeg);
+  background-size: contain;
+  height: 100%;
+  width: 25%;
+  margin: 0 10px;
+}
+
+.fotosExoticosPato {
+  background: url(pato1.avif);
+  background-size: 265px 232px;
+  height: 100%;
+  width: 25%;
+  margin: 0 10px;
+}
+
+.fotosExoticosRa {
+  background: url(ra.bmp);
+  background-size: 260px 225px;
+  width: 25%;
+  margin: 0 10px;
+}
+
+.fotosExoticosBufalo {
+  background: url(bufalo.jpg);
+  background-size: 260px 230px;
+  height: 100%;
+  width: 25%;
+  margin: 0 10px;
+}
+
+#containerTituloMor {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+}
+
+#containerTitulo {
+  display: flex;
+  height: 100%;
+  width: 80%;
+  justify-content: center;
+}
+
+.tituloJavali {
+  height: 100%;
+  width: 25%;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.tituloPato {
+  height: 100%;
+  width: 25%;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.tituloRa {
+  height: 100%;
+  width: 25%;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.tituloBufalo {
+  height: 100%;
+  width: 25%;
+  margin: 0 10px;
+  text-align: center;
+}
+
+#containerTextoMor {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  height: 300px;
+}
+
+#containerTexto {
+  display: flex;
+  height: 100%;
+  width: 80%;
+  padding: 0;
+  justify-content: center;
+}
+
+.textoJavali {
+  word-wrap: break-word;
+  padding: 0 20px;
+}
+
+.textoPato {
+  word-wrap: break-word;
+  padding: 0 20px;
+}
+
+.textoRa {
+  word-wrap: break-word;
+  padding: 0 20px;
+}
+
+.textoBufalo {
+  word-wrap: break-word;
+  padding: 0 20px;
+}
+
+#dadosUsuario{
+  margin-left: 200px;
+}
+
+input{
+  width: 300px;
+}
+
+#botaoSubmit{
+  width: 80px;
+}

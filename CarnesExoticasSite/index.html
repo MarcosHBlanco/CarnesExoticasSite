@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header>
+    <h1>Delícias da Carne Exótica</h1>
+  </header>
+
+  <!-- Início do Menu de navegação da página -->
+  <div id="containerMenu">
+    <div id="menu">
+      <ul>
+        <li id="primeiroLi"><a href="#quemSomos">Quem Somos</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Carnes Exóticas</a>
+          <div class="dropdown-content">
+            <a href="#javali">Javali</a>
+            <a href="#pato">Pato</a>
+            <a href="#rã">Rã</a>
+            <a href="#bufalo">Búfalo</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Carnes Nobres</a>
+          <div class="dropdown-content">
+            <a href="#costela">Costela</a>
+            <a href="#fileMignon">Filé Mignon</a>
+            <a href="#picanha">Picanha</a>
+            <a href="#tBone">T-Bone</a>
+          </div>
+        </li>
+        <li><a href="#contato">Contato</a></li>
+        <li id="ultimoLi"><a href="#localizacao">Localização</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- Fim do Menu de navegação da página -->
+  <!-- Início do código do Banner -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="carneExootica.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0 mt-5 d-none d-md-block">
+          <h4>Suas carnes especiais estão aqui!</h4>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="carneDeliciosa.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0 mt-5 d-none d-md-block">
+          <h4>Variedade pra você<br>aproveitar!</h4>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="carneNaGrelha.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0 mt-5 d-none d-md-block">
+          <h4>As melhores carnes com o melhor atendimento.</h4>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Fim do código do Banner -->
+  <!-- Início da Div com apresentação da empresa -->
+  <div id="quemSomos">
+    <h2 class="padding" id="h2Quemsomos">QUEM SOMOS</h2><br>
+    <h3 class="padding">Delícias da Carne Exóticas.<br>
+      Nós comemos.<br>
+      Nós bebemos.<br>
+      Nós viajamos para descobrir novos sabores.<br>
+      Nós conversamos sobre novos sabores.<br>
+      Nós acreditamos que comer é uma das grandes maravilhas da vida.
+      <br>
+      Há quarenta anos comercializando produtos de qualidade. Cortes Uruguaios e Argentinos.<br>
+      O MELHOR RESTAURANTE É A NOSSA CASA.
+    </h3>
+    <br>
+    </p>
+  </div>
+  <!-- Fim da Div com apresentação da empresa -->
+  <!-- Cortes Exóticos: Início -->
+  <div id="cortesExoticos">
+    <h2 class="padding">Carnes exóticas</h2>
+    <p class="padding">São aquelas provenientes de animais que tradicionalmente não estamos
+      habituados a consumir, assim como as carnes de animais silvestres ou de espécies de caça. Mas hoje em dia, estão
+      cada vez mais sendo utilizadas, fruto da busca do brasileiro por proteínas mais saudáveis e pela diversificação
+      de
+      sabores e cardápios.
+    </p>
+    <h2 class="padding">Confira nossos cortes exóticos:</h2><br>
+    <div id="containerMor">
+      <div id="containerFotosExoticos">
+        <div class="fotosExoticosJavali"></div>
+        <div class="fotosExoticosPato"></div>
+        <div class="fotosExoticosRa"></div>
+        <div class="fotosExoticosBufalo"></div>
+      </div>
+    </div>
+    <div id="containerTituloMor">
+      <div id="containerTitulo">
+        <div class="tituloJavali">
+          <h3>Javali</h3>
+        </div>
+        <div class="tituloPato">
+          <h3>Pato</h3>
+        </div>
+        <div class="tituloRa">
+          <h3>Rã</h3>
+        </div>
+        <div class="tituloBufalo">
+          <h3>Búfalo</h3>
+        </div>
+      </div>
+    </div>
+    <div id="containerTextoMor">
+      <div id="containerTexto">
+        <div class="textoJavali">
+          <p>Seu sabor e a sua textura se assemelha a carne de porco. Possui baixíssimo
+            teor de colesterol e é considerada uma carne magra quando comparada ao porco.</p>
+        </div>
+        <div class="textoPato">
+          <p>A carne é rica em ferro e vitamina B3, mas possui alto teor de colesterol, quando
+            comparamos com carnes de aves como o frango e o Peru.</p>
+        </div>
+        <div class="textoRa">
+          <p>Em textura que lembra frango, com uma carne branca saborosa, nutritiva e pouco calórica. Somente as coxas
+            são comestíveis.</p>
+        </div>
+        <div class="textoBufalo">
+          <p>Com baixo índice de gordura intramuscular. Retirada a gordura externa obtém-se uma carne ainda mais
+            magra, bastante consumida na região norte do Brasil.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Cortes Exóticos: Final -->
+  <!-- Cortes Nobres: Início -->
+  <div id="cortesNobres">
+    <br>
+    <h2 class="padding">Carnes nobres</h2>
+    <p class="padding">Recebem este nome porque são retiradas das melhores partes do boi, normalmente
+      mais macias e ‘saborosas’ que as demais.
+    </p>
+    <br>
+    <h2 class="padding">Confira nossos cortes nobres:</h2>
+    <br>
+    <div id="costela">
+      <div class="imgNaDireita">
+        <img id="imgCostela" src="costela.webp">
+      </div>
+      <div class="textoNaEsquerda">
+        <h3 class="padding">Costela</h3>
+        <p class="padding">Sem dúvida é uma das mais preferidas pelo brasileiro. Seu consumo é tradicional,
+          especialmente nos churrascos no Sul do Brasil. Geralmente a costela é composta por osso, gordura e carne,
+          é
+          claro. Ela está localizada no meio do peito do boi e se estende até o que chamamos de contrafilé.<br>
+          O preparo da costela é feito de diferentes formas. No Rio Grande do Sul, ela é assada no chamado
+          ‘churrasco de
+          chão’, mas pode também ser cozida na panela com ensopados ou assada no forno. Para que ela seja realmente
+          uma
+          carne extremamente nobre, seu corte deve ser feito a partir das oito últimas vértebras do boi, na parte de
+          cima.
+          Neste local, os ossos são mais largos e maiores, por isso, apresetam uma carne mais gorda.</p>
+      </div>
+    </div>
+    <br>
+    <div id="fileMignon">
+      <div class="imgNaEsquerda">
+        <img id="imgFiletMignon" src="filetMignon.avif">
+      </div>
+      <h3 class="padding">Filet Mignon</h3>
+      <p class="padding">Reconhecido como o corte mais macio do boi. Esta parte tem cerca de dois quilos e
+        está localizada na área traseira do animal, local em que os músculos menos trabalham, evitando o
+        endurecimento
+        e, por consequeência, deixando a carne mais macia e sem nervos. Sua utilização é feita em pratos clássicos
+        da
+        gastronomia, rendendo medalhões, escalopes, paillards e emincés. Seu corte tem que ser feito com o máximo de
+        precisão, caso contrário, a maciez pode ser comprometida.
+      </p>
+    </div>
+    <br>
+    <div id="picanha">
+      <div class="imgNaDireita">
+        <img id="imgPicanha" src="picanha.jpg">
+      </div>
+      <h3 class="padding">Picanha</h3>
+      <p class="padding">Uma das carnes nobres mais comuns em churrascos brasileiros e, talvez, a mais pedida
+        nas churrascarias. Ela se localiza no início do coxão duro, mas não faz parte da alcatra. Geralmente, a
+        picanha
+        tem no máximo 1,1 quilo, tem que ter altura de no máximo sete centímetros e coloração vermelha clara. A
+        picanha
+        é extremamente saborosa, tendo um preparo simples, podendo ser assada em partes compactadas, inteira na
+        grelha
+        ou no espeto.
+      </p>
+    </div>
+    <br>
+    <div id="tBone">
+      <div class="imgNaEsquerda">
+        <img id="imgTBone" src="t-bone.jpg">
+      </div>
+      <h3 class="padding">T-Bone</h3>
+      <p class="padding"> É considerado um dos melhores cortes do boi, sendo retirado de duas partes nobres do
+        animal, que são o contrafilé e o miolo do filé, estando presente na parte central da lombar com quatro
+        vértebras. O corte é realizado na transversal, deixando o osso da espinha dorsal em um formato de T, o que
+        dá
+        origem ao seu nome. As peças de T-Bone têm entre 1 kg e 1,5 kg. Este corte tem uma camada de gordura e uma
+        textura bem macia. Esta carne nobre é mais indicada para os preparos rápidos em grelhas ou churrasqueira,
+        dispensando o uso de temperos, que podem vir a alterar o seu sabor.
+      </p>
+    </div>
+  </div>
+  <!-- Cortes Nobres: Final -->
+  <!-- Início do formulário -->
+  <form>
+    <div id="containerRadios">
+      <p>Escolha suas preferências:</p><br>
+      <div class="radioButtons"></div><span>Cortes Exóticos</span>
+      <div class="radioButtons"></div><span>Cortes Nobres</span>
+      <div class="radioButtons"></div><span>Ambos</span>
+    </div>
+    <div id="container9">
+      <div id="containerCheckbox">
+        <p>Como deseja ser contatado:</p><br>
+        <div class="miniContainerCheckbox">
+          <div class="checkbox"></div><span>Telefone</span>
+        </div>
+        <div class="miniContainerCheckbox">
+          <div class="checkbox"></div><span>Email</span>
+        </div>
+        <div class="miniContainerCheckbox">
+          <div class="checkbox"></div><span>Todos os meios</span>
+        </div>
+      </div>
+      <div id="selectMenu">
+        <button type="button" id="botaoDropdown" class="botaoDropdown">
+          <span class="textoDoBotao">Tipo de carne favorita</span>
+          <i id="arrow" class="bx bx-chevron-down"></i>
+        </button>
+        <div class="divDropdown" id="divDropdown">
+          <div class="itemsDropdown">Bovina</div>
+          <div class="itemsDropdown">Suína</div>
+          <div class="itemsDropdown">Aves</div>
+          <div class="itemsDropdown">Frutos do Mar</div>
+          <div class="itemsDropdown">Outras</div>
+        </div>
+      </div>
+    </div>
+    <div id="dadosUsuario">
+      <label for="nome">Nome e Sobrenome</label>
+      <input type="text" name="nome" id="nome" required>
+      <label for="telefone">Telefone</label>
+      <input type="tel" name="telefone" id="telefone" placeholder="somente números" required>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="abc@exemplo.com" required>
+      <label for="mensagem"></label>
+      <textarea id="mensagem" name="mensagem" rows="5" cols="50" placeholder="Deixe sua mensagem"></textarea>
+      <label for="botaoSubmit"></label>
+      <input type="button" name="botaoSubmit" id="botaoSubmit" value="Enviar" onclick="checksTudo()">
+      <p id="pDeVerificacao"></p>
+    </div>
+  </form>
+  <!-- Fim do formulário -->
+  <!-- Início do Footer -->
+  <footer>
+    <h2 id="bannerContato">Contato</h2>
+    <div id="contato">
+      <div id="funcionamento">
+        <h3 id="h3Horario">Horário de Funcionamento:</h3>
+        <p>Segunda à sexta das 7:00hs às 19:00<br>
+          Sábados das 7:00 às 15:00hs
+        </p>
+      </div>
+      <div id="numeros">
+        <h3 id="h3Telefones">Telefones:</h3>
+        <p>(21) 2527-7125 / (21)99908-4435
+        <h3 id="h3Whatsapp">Whatsapp:</h3>
+        <p>(21) 97213-0412</p>
+      </div>
+    </div>
+    <div id="localizacao">
+      <h2>Localização</h2>
+      <p id="endereco">Rua Voluntários da Pátria, 340 loja F - Botafogo - Rio de Janeiro - RJ</p>
+      <br>
+    </div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.8795846681373!2d-43.19389150000001!3d-22.954661399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fe09f122171%3A0xcb6578915f0cf2be!2sR.%20Volunt%C3%A1rios%20da%20P%C3%A1tria%2C%20340%20-%20f%20-%20Botafogo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022270-016!5e0!3m2!1spt-BR!2sbr!4v1683979860812!5m2!1spt-BR!2sbr"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </footer>
+  <!-- Fim do Footer -->
+
+
+  <script src="script.js"></script>
+
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
